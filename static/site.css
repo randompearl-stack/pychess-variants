@@ -255,11 +255,7 @@ body {
   cursor: default;
   margin-bottom: 2vmin;
 }
-body.no-select {
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-}
+
 ::-webkit-scrollbar-track {
   background-color: var(--bg-color2);
 }
@@ -274,10 +270,6 @@ body.no-select {
   background-color: var(--scrollbar-thumb-hover);
 }
 
-div#preload {
-  /* preload board .svg images */
-  display: none;
-}
 
 h1,
 h2,
@@ -1946,8 +1938,12 @@ button.icon::-moz-focus-inner {
   background-color: var(--clock-running-bg);
 }
 
+.clock.overtime {
+  background-color: var(--clock-overtime-bg);
+}
+
 .clock.hurry {
-  background-color: var(--clock-hurry-bg) !important;
+  background-color: var(--clock-hurry-bg);
 }
 
 .clock.connecting {
@@ -1960,10 +1956,6 @@ button.icon::-moz-focus-inner {
   to {
     opacity: 0;
   }
-}
-
-.clock.overtime {
-  background-color: var(--clock-overtime-bg);
 }
 
 .clock-time.min {
@@ -2679,8 +2671,8 @@ div > span[role=tab]::after {
 }
 
 body.resizing {
-  user-select:none;
-  -webkit-user-select:none
+  -webkit-user-select: none;
+  user-select: none;
 }
 cg-resize {
   display:none
