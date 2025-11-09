@@ -74,7 +74,7 @@ static/images/bughouse.jpg | [Alexandre Duret-Lutz](https://www.flickr.com/photo
 static/images/bugroundchat/* | pychess-variants contributors | [AGPLv3+](https://www.gnu.org/licenses/agpl-3.0.txt) |
 static/images/Santa_hat.svg | [openclipart](https://openclipart.org/detail/190172/santa-hat) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 static/images/puzzles.jpg | [puzzles.one](https://puzzles.one/) | | From puzzles.one website
-static/images/one-flew-over-the-cuckoos-nest.jpg | | | Movie poster
+static/images/zh960invitational2022/one-flew-over-the-cuckoos-nest.jpg | | | Movie poster
 static/images/Darth-Vader-Comic.jpg | | | Comic book cover
 static/images/Kuniyoshi_Utagawa_The_actor_17.jpg | [Utagawa Kuniyoshi](https://commons.wikimedia.org/wiki/File:Kuniyoshi_Utagawa,_The_actor_17.jpg) | Public Domain |
 static/images/pexels-renato-conti-2677849.jpg | [Renato Conti](https://www.pexels.com/photo/a-man-playing-chess-2677849/) | [Pexels License](https://www.pexels.com/license/) |
